@@ -25,8 +25,8 @@ $response = array(
     'current_day' => $currentDay,
     'utc_time' => $utcTime,
     'track' => $track,
-    'github_file_url' => 'https://github.com/Gozyvee/Hamster-Shop/blob/main/index.php',
-    'github_repo_url' => 'https://github.com/Gozyvee/Hamster-Shop',
+    'github_file_url' => 'https://github.com/Gozyvee/endpoint/blob/main/index.php',
+    'github_repo_url' => 'https://github.com/Gozyvee/endpoint',
     'status_code' => 200
 );
 
