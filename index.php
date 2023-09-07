@@ -10,7 +10,7 @@ $track = getQueryParam('track');
 
 // Get the current day of the week and UTC time
 $currentDay = date('l');
-$utcTime = gmdate('Y-m-d H:i:s');
+$utcTime = gmdate('Y-m-d\TH:i:s\Z');
 
 // Check if slack_name and track parameters are provided
 if (!$slackName || !$track) {
